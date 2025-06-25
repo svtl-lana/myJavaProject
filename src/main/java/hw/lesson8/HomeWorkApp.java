@@ -26,10 +26,10 @@ public class HomeWorkApp {
     }
 
     public static void printColor(){
-        int x = 134;
-        if (x <= 0) {
+        int value = 134;
+        if (value <= 0) {
             System.out.println("Red");
-        } else if (x <= 100){
+        } else if (value <= 100){
             System.out.println("Yellow");
         } else {
             System.out.println("Green");
