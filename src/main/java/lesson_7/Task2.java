@@ -6,14 +6,14 @@ public class Task2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the number: ");
-        int a = scanner.nextInt();
-        if (number(a)) {
-            System.out.println("Positive number");
-        } else {
-            System.out.println("Negative number");
-        }
+        int number = scanner.nextInt();
+        printNumber(number);
     }
-    public static boolean number(int a) {
-        return a >= 0;
+    public static void printNumber(int a) {
+        if (a >= 0) {
+            System.out.println("The number is positive.");
+        } else {
+            System.out.println("The number is negative.");
+        }
     }
 }
