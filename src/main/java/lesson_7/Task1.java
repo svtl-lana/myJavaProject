@@ -2,7 +2,7 @@ package lesson_7;
 
 import java.util.Scanner;
 
-public class task1 {
+public class Task1 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -13,13 +13,8 @@ public class task1 {
         boolean result = between10and20(a, b);
         System.out.println("Sum of numbers in the range 10 and 20: " + result);
     }
-
     public static boolean between10and20(int a, int b) {
         int sum = a + b;
-        if (sum >= 10 && sum <= 20) {
-            return true;
-        } else {
-            return false;
-        }
+        return sum >= 10 && sum <= 20;
     }
 }
