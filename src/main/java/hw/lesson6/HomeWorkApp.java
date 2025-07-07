@@ -1,4 +1,4 @@
-package hw.lesson8;
+package hw.lesson6;
 
 public class HomeWorkApp {
     public static void main(String[] args) {
