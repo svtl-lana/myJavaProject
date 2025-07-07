@@ -12,6 +12,5 @@ public class ParkMain {
 
         park.showAttractions(list);
     }
-
 }
 
