@@ -6,7 +6,6 @@ public class Payment {
     public Payment(String customer) {
         this.customer = customer;
     }
-
     public class Item {
         private String name;
         private double price;
@@ -15,7 +14,6 @@ public class Payment {
             this.name = name;
             this.price = price;
         }
-
         public double getPrice() {
             return price;
         }
@@ -25,7 +23,6 @@ public class Payment {
             System.out.println("Item: " + name + ", Price: " + price);
         }
     }
-
     public void showTotal(Item[] items) {
         double total = 0;
 
