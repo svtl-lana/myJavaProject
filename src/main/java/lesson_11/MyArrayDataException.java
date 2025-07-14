@@ -5,6 +5,6 @@ public class MyArrayDataException extends Exception {
         super(createMessage(row, col, value));
     }
     private static String createMessage(int row, int col, String value) {
-        return "Invalid data at " + row + " " + col + " : \"" + value + "\"";
+        return "Invalid data at " + row + " " + col + " :\"" + value + "\"";
     }
 }
