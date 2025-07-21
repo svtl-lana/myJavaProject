@@ -2,8 +2,8 @@ package lesson_13;
 
 public class MainTest {
     public static void main(String[] args) {
-        PhoneDirectory PhoneDirectory = new PhoneDirectory();
 
+        PhoneDirectory PhoneDirectory = new PhoneDirectory();
         PhoneDirectory.add("Gary Carter", "123123123");
         PhoneDirectory.add("Robert Young", "456456456");
         PhoneDirectory.add("Richard Flores", "789789789");

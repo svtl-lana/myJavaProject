@@ -10,7 +10,6 @@ public class Words {
                 "Strawberry", "Grape", "Grape", "Blueberry", "Cherry",
                 "Peach", "Apple", "Grape", "Strawberry", "Cherry"
         );
-
         Set<String> uniqueWords = new HashSet<>(words);
         System.out.println("Unique words:");
         for (String word : uniqueWords) {
