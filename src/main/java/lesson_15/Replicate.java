@@ -29,10 +29,12 @@ public class Replicate {
 
         WebElement uploadInput = wait.until(ExpectedConditions.presenceOfElementLocated(
                 By.xpath("//input[@type='file']")));
+        uploadInput.click();
 
-        File avatar = new File("C:\\Users\\MY LOVELY ASS\\Downloads\\cat.jpg");
+        File avatar = new File("C:\\Users\\MY LOVELY ASS\\Downloads\\cat.png");
         uploadInput.sendKeys(avatar.getAbsolutePath());
 
+        Thread.sleep(1000);
         driver.quit();
     }
 }
