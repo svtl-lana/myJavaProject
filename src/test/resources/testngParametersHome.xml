@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="AllTests Suite">
+    <test name="LoginUser1">
+        <parameters>
+            <parameter name="email" value="svetatest1@gmail.com"/>
+            <parameter name="password" value="12345678"/>
+        </parameters>
+        <classes>
+            <class name="Lesson_16.ParameterTest.ParameterTest"/>
+        </classes>
+    </test>
+
+    <test name="LoginUser2">
+        <parameters>
+            <parameter name="email" value="svetatest2@gmail.com"/>
+            <parameter name="password" value="12345678"/>
+        </parameters>
+        <classes>
+            <class name="Lesson_16.ParameterTest.ParameterTest"/>
+        </classes>
+    </test>
+
+    <test name="LoginUser3">
+        <parameters>
+            <parameter name="email" value="svetatest3@gmail.com"/>
+            <parameter name="password" value="12345678"/>
+        </parameters>
+        <classes>
+            <class name="Lesson_16.ParameterTest.ParameterTest"/>
+        </classes>
+    </test>
+</suite>
