@@ -1,4 +1,4 @@
-package Lesson_16.DataProviderTest;
+package Lesson_16.dataProviderTest;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
