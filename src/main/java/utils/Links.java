@@ -8,7 +8,8 @@ public enum Links {
     ZOO("https://zoo.waw.pl/"),
     W3SCHOOLS("https://www.w3schools.com/"),
     CLICK_SPEED_TEST("https://www.clickspeedtester.com/click-counter/"),
-    ANDERSEN("https://andersenlab.com/");
+    ANDERSEN("https://andersenlab.com/"),
+    ANDERSEN_SIGN_IN("https://qa-course-01.andersenlab.com/login");
 
     private final String link;
     public String getLink() {
